@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+  img{
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      width: 900px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: whitesmoke;
+    z-index: 9;
+    top: 0px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  main {
+    background-color: gainsboro;
+    width: 98,5vw;
+    margin-top: 82px;
+    padding-top: 30px;
+    padding-bottom:30px;
+  }
+  
+  footer {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  img.banner {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 700px;
+    max-width: 100%;
+  }
+
+  /*Tablets*/
+  @media screen and (max-width:768px){
+      section, aside{
+          width: 100%;
+          padding:0;
+      }
+  }
+  /*celulares*/
+  @media screen and (max-width:600px){
+      nav li{
+          float: none;
+          text-align: center;
+          width: 100%;
+      }
+    }
